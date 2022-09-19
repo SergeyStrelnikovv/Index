@@ -1,8 +1,8 @@
 public class BmiService {
 
-    public double calculate(double value, double value2) {
+    public double calculate(double theWeight, double growth) {
 
-        double edit = (value / value2);
+        double edit = (theWeight / growth);
         return edit;
     }
 
